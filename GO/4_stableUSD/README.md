@@ -16,7 +16,7 @@ the API has routes to:
 - transfer from own account to another
 
 
-#    r.HandleFunc("/account/{acc}", getAccount).Methods("GET")
-#    r.HandleFunc("/account/{acc}/approve", aproveAllowance).Methods("POST")
-#    r.HandleFunc("/account/{acc}/tranfer", transfer).Methods("POST")
-#    r.HandleFunc("/", homePage).Methods("GET")
+-    r.HandleFunc("/account/{acc}", getAccount).Methods("GET")
+-    r.HandleFunc("/account/{acc}/approve", aproveAllowance).Methods("POST")
+-    r.HandleFunc("/account/{acc}/tranfer", transfer).Methods("POST")
+-    r.HandleFunc("/", homePage).Methods("GET")

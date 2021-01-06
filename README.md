@@ -9,12 +9,12 @@ GO
 
  for the installation of the dependencies, the 'ruud' folder needs to be placed in $GOPATH/src, so next to where the github.com folder lives. then at the location of the go script run
  
- # go get .
+- go get .
 
  to get the dependencies
  then to run the script
 
- # go run <filename.go>
+- go run <filename.go>
 
 JAVASCRIPT 
 
