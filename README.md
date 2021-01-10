@@ -1,5 +1,7 @@
 DAPP
  - here i created a application that should work without having to install dependencies
+    - git clone https://github.com/2cluster/token-application.git
+    - git clone https://github.com/2cluster/upgrade-test.git
 
 DEV_VM
  - this is just a template structure that i use to create new development environments using a vagrant VM and a script to install software
@@ -19,5 +21,28 @@ GO
 JAVASCRIPT 
 
  contains all the scripts written in .js, node_modules included
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+Added the following
+
+- events folder
+    ./events
+
+- oracles folder
+    ./oracles
+
+- upgrade-test project
+    - git clone https://github.com/2cluster/upgrade-test.git
+
+    this project can deplot a simpleStorage contract with a proxy
+
+    then a simpleStorageV2 contract can replace the contract that is now reachable from the same address
+    In the V2 contract i have added a new function 
+
+    All commands can be found in the readme
+
+
 
  
